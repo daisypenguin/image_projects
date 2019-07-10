@@ -1,0 +1,2 @@
+# image_projects
+This project deals with modifying images. The green screen project shows how we can alter the background of an image using a green screen, the image filter project deals with modifying the rgb values of the pixels of an image in order to apply a filter on the image (implemented are greyscale, rainbow and make red). The third part steganography deals with hidding an image within another image.
