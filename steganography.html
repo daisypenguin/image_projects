@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+<title> Steganography</title>
+<script src="js/stegano.js"></script>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<link rel="stylesheet" href="css/duke.css">
+</head>
+<body>
+<h1> Using steganography </h1>
+<canvas id="hide"> Image to be hidden</canvas>
+<canvas id="show"> Image to be shown</canvas>
+<br>
+Image to be hidden:<input type="file" mutliple="false" accept="image/*" id="hinput" onchange="uploadh()"><br>
+Image to be shown:<input type="file" mutliple="false" accept="image/*" id="sinput" onchange="uploads()">
+<br>
+<input type="button" value="Chop to hide" onclick="chop2hide()">
+<input type="button" value="Shift" onclick="shift()">
+<input type="button" value="Create composite" onclick="composite()">
+<input type="button" value="Clear canvases" onclick="clearCanvas()">
+</body>
+</html>

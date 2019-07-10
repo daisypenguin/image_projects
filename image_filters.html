@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+<head>
+<title> Image filters by Daisy Das </title>
+<script src="js/filters.js"></script>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<link rel="stylesheet" href="css/duke.css">
+</head>
+<body>
+<h1><center>Have fun with filters!</h1></center>
+<canvas id="c1"> Picture1 </canvas>
+<!--<div style="text-align:center;">
+<img src="images\bullet.png" width=50px align="top">
+</div>-->
+<canvas id="c2"> Picture2</canvas>
+<br>
+<h3>Load image</h3>
+<b>Filename:</b><input type="file" mutliple="false" accept="image/*" id="finput" onchange="upload()">
+<br>
+<h3>Select filter:</h3>
+<input type="button" value="Make grayscale" onclick="makeGray()">
+<input type="button" value="Make red" onclick="makeRed()">
+<input type="button" value="Rainbow effect" onclick="Rainbow()">
+<br>
+<input type="button" value="Reset image" onclick="Reset()">
+</body>
+</html>

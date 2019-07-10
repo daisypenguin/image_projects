@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+<head>
+<title> green screen</title>
+<script src="js/green_screen.js"></script>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<link rel="stylesheet" href="css/duke.css">
+</head>
+<body>
+<h1> Using green screen </h1>
+<canvas id="fg"> Foreground </canvas>
+<canvas id="bg"> Background</canvas>
+<br>
+Foreground image:<input type="file" mutliple="false" accept="image/*" id="fginput" onchange="uploadfg()"><br>
+Background image:<input type="file" mutliple="false" accept="image/*" id="bginput" onchange="uploadbg()">
+<br>
+<input type="button" value="Create composite" onclick="greenScreen()">
+<input type="button" value="Clear canvases" onclick="clearCanvas()">
+</body>
+</html>
